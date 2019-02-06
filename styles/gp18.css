@@ -1,0 +1,279 @@
+
+body{
+    background-image: url(../assets/img/BG.jpg);
+    width:100vw;
+    height: 82vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgba(10, 55, 19, 0.6);
+    color: rgb(237, 237, 172);
+    padding-top: 1em;
+}
+
+.navbar button{
+    background-color:  rgba(7, 29, 17, 0.4);
+}
+
+.navbar button:hover{
+    background-color:  rgba(10, 45, 13, 0.9);
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    background-color: rgba(9, 53, 18, 0.7);
+    color: rgb(231, 252, 39);
+}
+
+.dropdown button{
+    background-color:  rgba(7, 29, 17, 0.4);
+}
+
+.dropdown button:hover{
+    background-color:  rgba(10, 45, 13, 0.9);
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+nav.navbar-default .navbar-nav > li > a {
+    color: yellow;
+    font-weight: normal;
+}
+
+nav.navbar-default .navbar-nav > li > a:hover{
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+nav.navbar-default .navbar-nav > li > #session{
+    color: yellow;
+    font-weight: bold;
+}
+
+input{
+    color:black;
+}
+
+#logotipo{
+    width:5em;
+    height: 3em;
+}
+/*Css do navbar até aqui*/
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+/*Swiper css até aqui*/
+
+
+.contentimg{
+    width:100vw;
+    height:65vh;
+}
+
+/*Content Css até aqui*/
+
+#context{
+    background-color: rgb(7, 33, 12);
+    margin: 0;
+    padding-top: 2em;
+    color: white;
+}
+
+#context li{
+padding-top:1em;
+}
+
+#context a{
+
+    text-decoration: none;
+    color:white;
+}
+
+#context a:hover 
+{
+    color:yellowgreen;
+    font-weight: bold;
+}
+
+#context h6{
+    font-size:1.3em;
+    color: rgb(197, 252, 197);
+    padding:0;
+    margin-top:1em;
+}
+
+#context p{
+    margin-top:0.3em;
+}
+
+.social-link{
+    color:yellowgreen;
+}
+
+/*Context Css até aqui*/
+
+.ul.footer-links{
+    list-style: none;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+/*footer css até aqui*/
+
+#avaliar{
+    margin :8em;
+    margin-top:8em;
+    margin-bottom:2em;
+    background-color:rgb(12, 44, 79);
+    align-items: center;
+    color: white;
+    border-radius: 1em;
+    padding:2em;
+}
+.reviewing {
+    align-items: center;
+}
+.review .reviewing textarea{
+    color:black;
+}
+
+
+/*avaliar css até aqui*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+#ranker{
+    
+    margin:8em;
+    margin-top:12em;
+}
+
+#ranker table{
+    
+    margin:2em;
+    padding:2em;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+#ranker table td{
+    border: 1px solid black; 
+    padding:1em;
+    font-weight: bold;
+}
+
+#ranker table th{
+    background-color: lightgrey;
+    padding:1em;
+    border: 1px solid black; 
+    color: darkgreen; 
+}
+
+#ranker #searchbar{
+    width:35em;
+    background-color: lightgray;
+}
+/* Ranking CSS*/
+
+#registo{
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    margin:8em;
+    margin-top:12em;
+}
+
+#title{
+    width:40vw;
+}
+
+/*Sign Up CSS*/
+
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#output_image
+{
+ max-width:300px;
+}
+
+/*image preview css*/
+
+#comentario{
+    width:20em;
+    border: solid 1px white;
+    align-items: center;
+    text-align: center;
+    padding:0.8em;
+    margin:0;
+    border-radius: 0.5em;
+
+}
